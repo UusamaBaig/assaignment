@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+  <div class="app" id="app">
+    <div class="search-container">
+      <input type="text" id="cityInput" placeholder="Enter city..." />
+      <button onclick="getWeather()">Search</button>
+      <button onclick="getLocationWeather()">My Location</button>
+    </div>
+
+    <div class="weather-container" id="weatherBox">
+      <p class="intro">Search for weather...</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
